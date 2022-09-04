@@ -1,0 +1,33 @@
+body {
+  margin: 0px;
+  font-family: "IBM Plex Sans", Arial, Helvetica, sans-serif;
+  color: #0a0a0a;
+  background: #fbfbfb;
+}
+
+.mono {
+  font-family: "IBM Plex mono", Georgia, "Times New Roman", Times, serif;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}

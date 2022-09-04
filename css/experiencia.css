@@ -1,0 +1,127 @@
+.experiencia {
+  font-family: "IBM Plex mono";
+  background-color: #cdd7ff;
+}
+
+.experiencia-container {
+  max-width: 640px;
+  padding: 100px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+
+.experiencia-tools {
+  background: #fbfbfb;
+  border-radius: 5px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.experiencia-tools::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 5px;
+  background: #b1bce6;
+  position: absolute;
+  border-radius: 5px;
+  top: -6px;
+}
+
+.experiencia-tools ul {
+  padding: 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-evenly;
+}
+
+.experiencia-tools li {
+  font-size: 1rem;
+  line-height: 1.4;
+  border-radius: 4px;
+  padding: 2px 10px;
+}
+
+.experiencia-tools h2 {
+  line-height: 1.1;
+  padding: 5px 0px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.experiencia-tools .roxo {
+  color: #35488f;
+  background: #f2f5ff;
+  border: 1px solid #b1bce6;
+  border-radius: 50px;
+}
+
+.experiencia-tools .verde {
+  color: #28786a;
+  background: #e3fffa;
+  border: 1px solid #66b9aa;
+  border-radius: 50px;
+}
+
+.experiencia-tools .amarelo {
+  color: #686102;
+  background: #fffdde;
+  border: 1px solid #fbeb1d;
+  border-radius: 50px;
+}
+
+.experiencia-skills {
+  background: #fbfbfb;
+  border-radius: 5px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 10px 0px;
+  position: relative;
+}
+
+.experiencia-skills::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 5px;
+  background: #b1bce6;
+  position: absolute;
+  border-radius: 5px;
+  top: -6px;
+  left: 20px;
+}
+
+.experiencia-skills ul {
+  padding: 5px 20px;
+}
+
+.experiencia-skills li {
+  font-size: 1rem;
+  line-height: 1.4;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.experiencia-skills h2 {
+  font-size: 1.5rem;
+  line-height: 1.1;
+  padding: 5px 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+@media (max-width: 700px) {
+  .experiencia-container {
+    max-width: 320px;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    padding: 50px 10px;
+    margin-bottom: 60px;
+  }
+}
